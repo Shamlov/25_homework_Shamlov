@@ -128,4 +128,34 @@
 // // -----------------------------------------------------------------------------------------------------------------------------
 
 
-// 7 залание --------------------------------------------------------------------------------------------
+// // 7 задание --------------------------------------------------------------------------------------------
+// let priceIncoming = prompt('введите стоимоть товара')
+// let verifiedPriceIncoming = false
+// if (+priceIncoming < 0) {
+//     alert('цена не может быть отрицательной')
+// } else if (priceIncoming == null) {
+//     alert('вы нажали отмена') 
+// } else if (priceIncoming == '') {
+//     alert('вы ничего не ввели') 
+// } else if (+priceIncoming == 0) {
+//     alert('вы ввели 0') 
+// } else if (Number.isNaN(+priceIncoming)) {
+//     alert('вы ввели текст')
+// } else {
+//     verifiedPriceIncoming = +priceIncoming
+// }
+
+// if (verifiedPriceIncoming < 200 && verifiedPriceIncoming) {
+//     alert(`итоговая стоимиость ${verifiedPriceIncoming} у вас нет скидки `)
+// } else if (verifiedPriceIncoming > 200 && verifiedPriceIncoming <= 300) {
+//     verifiedPriceIncoming = verifiedPriceIncoming - (verifiedPriceIncoming / 100 * 3)
+//     alert(`итоговая стоимиость ${verifiedPriceIncoming} ваша скидка 3% `)
+// } else if (verifiedPriceIncoming > 300 && verifiedPriceIncoming <= 500) {
+//     verifiedPriceIncoming = verifiedPriceIncoming - (verifiedPriceIncoming / 100 * 5)
+//     alert(`итоговая стоимиость ${verifiedPriceIncoming} ваша скидка 5% `)
+// } else if (verifiedPriceIncoming > 500) {
+//     verifiedPriceIncoming = verifiedPriceIncoming - (verifiedPriceIncoming / 100 * 7)
+//     alert(`итоговая стоимиость ${verifiedPriceIncoming} ваша скидка 7% `)
+// } 
+// // -----------------------------------------------------------------------------------------------------------------------------
+
