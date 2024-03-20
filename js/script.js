@@ -225,10 +225,61 @@
 // // -----------------------------------------------------------------------------------------------------------------------------
 
 
-// 10 задание --------------------------------------------------------------------------------------------
+// // 10 задание --------------------------------------------------------------------------------------------
+// let day = Math.abs(Math.floor(+prompt('Введите число месяца от 1 до 31')))
+// let month = Math.abs(Math.floor(+prompt('Введите номер месяца от 1 до 12')))
+// let year = Math.abs(Math.floor(+prompt('Введите год')))
+// let leapYear = (!(year % 400) || !(year % 4)) && !!(year % 100)
+// console.log(leapYear)
+// let newDay
+// let newMonth
+// let newYear
+// if(day < 1 || day > 31 || month < 1 || month > 12) {
+//     alert ('ошибка ввода, повторите ввод')
+// } else {
+//     newDay = day + 1
+//     newMonth = month
+//     newYear = year
 
+//     if ((newDay > 30) & (month == 4 || month == 6 || month == 9 || month == 11)) {
+//         newDay = 1;
+//         newMonth = newMonth + 1;
+//     }
+//     if ((newDay > 31) & (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 ||month == 10)) {
+//         newDay = 1;
+//         newMonth = newMonth + 1;
+//     }
+//     if ((newDay > 31) & (month == 12)) {
+//         newDay = 1;
+//         newMonth = 1;
+//         newYear = newYear + 1;
+//     }
+//     if ((newDay > 28) & (month == 2) & leapYear) {
+//         newDay = 1;
+//         newMonth = 3;
+//     }
+//     if ((newDay > 29) & (month == 2) & leapYear) {
+//         newDay = 1;
+//         newMonth = 3;
+//     }
 
-//  --------------------------------------------------------------------------------------------
+//     if ((day > 30) & (month == 4 || month == 6 || month == 9 || month == 11)) {
+//         day = 0;
+//     }
+//     if ((day > 31) & (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)) {
+//         day = 0;
+//     }
+
+//     if ((day > 28) & (month == 2) & leapYear ) {
+//         day = 0;
+//     }
+//     if ((day > 29) & (month == 2) & leapYear ) {
+//         day = 0;
+//     }
+
+//     alert(`вы ввели ${day} ${month} ${year}\nследующая дата ${newDay} ${newMonth} ${newYear}`)
+// }
+// //  --------------------------------------------------------------------------------------------
 
 
 // Вопросы:
