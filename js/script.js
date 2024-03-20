@@ -159,3 +159,77 @@
 // } 
 // // -----------------------------------------------------------------------------------------------------------------------------
 
+
+
+// // 8 задание --------------------------------------------------------------------------------------------
+// let userDataCircumference = prompt('Введите длинну окружности')
+// let verifiedDataCircumference
+// if (+userDataCircumference < 0 || userDataCircumference == null || userDataCircumference == '' || +userDataCircumference == 0 || Number.isNaN(+userDataCircumference)) {
+//     verifiedDataCircumference = false
+// } else {
+//     verifiedDataCircumference = +userDataCircumference
+// }
+
+// let userPerimeterSquare = prompt('Введите периметр квадрата')
+// let verifiedPerimeterSquare
+// if (+userPerimeterSquare < 0 || userPerimeterSquare == null || userPerimeterSquare == '' || +userPerimeterSquare == 0 || Number.isNaN(+userPerimeterSquare)) {
+//     verifiedPerimeterSquare = false
+// } else {
+//     verifiedPerimeterSquare = +userPerimeterSquare
+// }
+
+// if (!verifiedDataCircumference || !verifiedPerimeterSquare) {
+//     alert('проверьте ввод')
+// } else {
+//     // возможно ли вкладывать условия друг в друга?
+//     let radiusCalculation = verifiedDataCircumference / 2 * Math.PI
+//     let sideSquareCalculation = verifiedPerimeterSquare / 4
+    
+//     if (radiusCalculation < sideSquareCalculation / 2) {
+//         alert('Окрудность вписалась в квадрат')
+//     } else {
+//         alert('Окрудность не влезла')
+//     }
+// }
+// // -----------------------------------------------------------------------------------------------------------------------------
+
+
+// // 9 задание --------------------------------------------------------------------------------------------
+// alert (`введите номер (цифру) верного ответа \nнапимер\n2`)
+// let question1 = +prompt(`ВОПРОС 1\nМосква столица ...\n1 Индии\n2 Ирана \n3 России`);
+// let question2 = +prompt(`ВОПРОС 2\nСолнце это ...\n1 Звезда\n2 Планета \n3 Комета`);
+// let question3 = +prompt(`ВОПРОС 3\nКамень ...\n1 Жидкий\n2 Твердый \n3 Газообразный`);
+// let verifiedquestion1
+// let verifiedquestion2
+// let verifiedquestion3
+// if (Number.isNaN(question1) || Number.isNaN(question2) || Number.isNaN(question3)) {
+//     alert('вы ввели не цифру')
+// } else {
+//     verifiedquestion1 = question1
+//     verifiedquestion2 = question2
+//     verifiedquestion3 = question3
+
+//     let rez = 0
+//     if(verifiedquestion1 == 3) { rez += 2 }
+//     if(verifiedquestion2 == 1) { rez += 2 }
+//     if(verifiedquestion3 == 2) { rez += 2 }
+
+//     let numberCorrectAnswer = '0'
+//     switch (true) {
+//         case rez == 2 : numberCorrectAnswer = 'один' ; break;
+//         case rez == 4 : numberCorrectAnswer = 'два' ; break;
+//         case rez == 6 : numberCorrectAnswer = 'три' ; break;
+//     }
+//     alert(`ваш результат ${rez}\n${numberCorrectAnswer} верных ответа`)
+// }
+// // -----------------------------------------------------------------------------------------------------------------------------
+
+
+// 10 задание --------------------------------------------------------------------------------------------
+
+
+//  --------------------------------------------------------------------------------------------
+
+
+// Вопросы:
+// вложенность условий как задание 8
